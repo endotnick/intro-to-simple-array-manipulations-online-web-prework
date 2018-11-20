@@ -106,7 +106,7 @@ describe "#using_insert" do
     @new_array = using_insert(@list_of_esoteric_programming_languages, @another_esoteric_language)
   end
 
-  it "takes in two arguments, an array and a new element to be added to the array. it uses the insert method to add the new element to the 4th index of the array" do 
+  it "takes in two arguments, an array and a new element to be added to the array. it uses the insert method to add the new element to the 5th index of the array" do 
     expect(@new_array[4]).to eq(@another_esoteric_language)
   end
 
