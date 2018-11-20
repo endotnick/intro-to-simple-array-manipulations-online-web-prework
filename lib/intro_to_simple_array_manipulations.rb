@@ -11,7 +11,7 @@ def using_pop(arr)
 end
 
 def pop_with_args(arr, int)
-  arr.pop(2)
+  arr.pop(int)
 end
 
 def using_shift(arr)
